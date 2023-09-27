@@ -1,0 +1,31 @@
+{
+  "name": "testjavascriptapi",
+  "version": "1.0.0",
+  "description": "mocha chai petstore example",
+  "main": "index.js",
+  "scripts": {
+    "assert": "mocha test/api/chaiAssert.js",
+    "welcome": "mocha test/api/welcomeTest.js",
+    "test get": "mocha test/api/getExample.js",
+    "test post": "mocha test/api/postExample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicodedrians/testJavaScriptAPI.git"
+  },
+  "author": "nico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicodedrians/testJavaScriptAPI/issues"
+  },
+  "homepage": "https://github.com/nicodedrians/testJavaScriptAPI#readme",
+  "dependencies": {
+    "chai": "^4.3.8",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0"
+  }
+}
